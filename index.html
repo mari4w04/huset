@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/materialize.css">
+</head>
+
+<body>
+
+ <div id="slide-out" class="side-nav">
+    <!--<ul id="categorymenu">
+         <li>
+             <a href="index.html">Home</a>
+         </li>
+         <template id="linkTemplate">
+             <li><a href="">Other</a></li>
+         </template>
+     </ul>-->
+     <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">FAQ</a></li>
+     </ul>
+</div>
+
+
+  <div class="header">
+      <a href="#" data-activates="slide-out" class="button-collapse burger-icon"><img style="height: 40px;" src="img/menu.svg"></a>
+
+      <div class="logo-combined">
+          <a href="index.html" class="logo-link"><img class="logo-big" src="img/huset-logo.gif"></a>
+          <div class="logo-movie-title">Movies</div>
+      </div>
+    </div>
+
+    <div class="filter-box">
+        <template id="linkTemplate">
+            <a href="">Other</a>
+        </template>
+        <div class="uk-card-body" id="categorymenu">
+            <a href="index.html">All genres</a>
+        </div>
+
+        <hr class="short-hr">
+
+        <div class="uk-card-body time-filters">
+            <a href="index.html">All events</a>
+            <a id="happeningSoon">In the next 7 days</a>
+        </div>
+    </div>
+
+
+
+    <div class="uk-width-*">
+        <div class="uk-child-width-*" id="list">
+        </div>
+    </div>
+
+
+
+   <template id="eventTemplate">
+      <div class="uk-card uk-card-secondary all-events">
+       <div class="uk-card-body event">
+          <img src="" alt="">
+           <h1></h1>
+           <h2>
+               <span class="date"></span> at <span class="starting-time"></span> / DKK <span class="price"></span>
+           </h2>
+
+           <div class="small-description"></div>
+
+           <p><a class="read-more purple-btn" href="event.html?id=1800">Read more</a></p>
+           <hr class="events-line">
+       </div>
+
+            <!--<div class="doors-open">Doors open at <span></span></div>
+            <div class="location"></div>
+            <p class="price">DKK <span></span></p>
+            <a class="facebook-link" href="">Facebook event</a><br>
+            <a class="ticket-link" href="">Buy a ticket</a>-->
+
+
+
+
+
+
+
+       </div>
+   </template>
+
+      <footer>
+           <a href="index.html">Home</a>
+           <a href="#">About</a>
+           <a href="#">Contact</a>
+           <a href="#">FAQ</a>
+           <div class="icons">
+               <a href="https://twitter.com/HusetKBH"><img src="img/tw.svg"></a>
+               <a href="https://www.facebook.com/Huset.Koebenhavn"><img src="img/fb.svg"></a>
+               <a href="https://www.instagram.com/husetkbh/"><img src="img/ig.svg"></a>
+               <a href="https://www.flickr.com/photos/135006755@N04/"><img src="img/fl.svg"></a>
+           </div>
+           <p>
+               ©2017 Huset KBH
+           </p>
+       </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>

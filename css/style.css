@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Carme');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+html{
+    background-color: #222;
+}
+body{
+    background-color: #222;
+    font-family: 'Raleway', sans-serif !important;
+}
+h1{
+    font-size: 1.3em !important;
+}
+h2{
+    font-size: 1.7em !important;
+}
+.place-and-time h1{
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.burger-icon{
+    font-size: 40px;
+}
+.burger-icon{
+    padding: 15px 30px;
+    color: white;
+    flex: 1;
+}
+a:hover, a:visited, a:active, a:focus{
+    color: white !important;
+    text-decoration: none !important;
+}
+.side-nav li > a{
+    color: white !important;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 1.3em !important;
+    font-weight: 700;
+    height: auto !important;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    text-transform: uppercase;
+    line-height: 3.5em !important;
+    height: auto !important;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    margin: 0 30px;
+}
+.side-nav li > a:active, .side-nav li > a:focus; .side-nav li > a:hover, .side-nav li > a:visited{
+    text-decoration: none !important;
+}
+.side-nav li > a:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    height: auto !important;
+}
+.side-nav{
+    background-color: #5b07a5 !important;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-big{
+    height: 60px;
+    widows: auto;
+    margin-top: 15px;
+}
+.logo-link{
+
+}
+
+.date-and-time{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.date{
+    font-size: 2.3em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.location-and-time{
+    border-right: 1px solid rgba(255,255,255, 0.7);
+    width: 65vw;
+}
+.location, .starting-time{
+}
+.place-and-time{
+    padding-left: 15px;
+}
+.doors-open{
+    color: white;
+}
+.price{
+    display: inline-block;
+}
+.single-event .price{
+    font-size: 1.2em;
+}
+hr{
+    width: 100%;
+}
+.uk-card-secondary > :not([class*='uk-card-media']) hr{
+    border-top-color: rgba(255, 255, 255, 0.7) !important;
+}
+.blue-btn{
+    background-color: #00b1f7;
+    padding: 10px 25px;
+    font-size: 1.05em;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+}
+.blue-btn a{
+    cursor: pointer !important;
+}
+.purple-btn{
+    background-color: #5b07a5;
+    padding: 10px 25px;
+    font-size: 1.05em;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+}
+p{
+    color: white !important;
+}
+.small-btn{
+    text-align: center;
+    font-size: 0.9em;
+}
+.button-box{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.all-events h1{
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.all-events .date{
+    font-size: 1em;
+    height: auto;
+    padding-right: 0;
+    display: inline;
+    border-right: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.all-events .starting-time{
+    color: rgba(255, 255, 255, 0.7);
+}
+.all-events h2{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1.3em !important;
+}
+.all-events h1{
+    margin-bottom: 10px;
+}
+.events-line{
+    margin-top: 40px;
+}
+.all-events .uk-card-body, .single-event .uk-card-body{
+    padding: 20px 30px;
+}
+.hidden{
+    display: none !important;
+}
+#happeningSoon{
+    cursor: pointer;
+}
+.logo-movie-title{
+    color: white;
+    width: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 3px;
+    margin-left: 52px;
+    font-family: 'Carme', sans-serif;
+    /*font-family: 'Viga', sans-serif;
+    font-family: 'Capriola', sans-serif;*/
+}
+.logo-combined{
+    display: flex;
+    flex-direction: column;
+    flex: 3.8;
+}
+#categorymenu a, .time-filters a{
+    border: 1.2px solid rgba(255, 255, 255, 0.84);
+    padding: 7px 13px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.time-filters a{
+    margin-top: 5px !important;
+}
+.all-events-btn{
+    margin: 20px;
+}
+#categorymenu{
+    text-align: center;
+    padding: 20px 30px 5px 30px;
+}
+.time-filters{
+    text-align: center;
+    padding: 0 30px 5px 30px !important;
+}
+.short-hr{
+    width: 40%;
+    margin: 10px auto !important;
+    border-top: 1.5px solid #882ed8;
+}
+footer{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+footer a{
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    margin: 0 30px;
+    font-size: 1.1em !important;
+    letter-spacing: 0.2em;
+}
+footer a:first-child{
+    padding: 5px 0 20px 0 !important;
+}
+.icons a{
+    border-bottom: none;
+    padding: 0 !important;
+    margin: 0 0 0 10px;
+}
+.icons a:first-child{
+    padding: 0 !important;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+footer p{
+    font-family: 'Raleway', sans-serif;
+    color: #939393 !important;
+    margin-top: 0;
+}
